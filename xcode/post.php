@@ -11,13 +11,14 @@
     
 <?php
 include ('geshi.php');
-$conn=mysql_connect("localhost","hackerchai","hackchaiyisheng");
+$conn=mysql_connect('localhost','hackerchai','hackchaiyisheng');
 if(!$conn)
 {
-  die("can not connect:".mysql_error());
+  die('can not connect:'.mysql_error());
 }
 $encode=str_replace('\'','\\\'',$_POST['code']);
-mysql_select_db("hackerchai",$conn);
+$encode=str_replace('\\','\\\\',$encode);
+mysql_select_db('hackerchai',$conn);
 $input="INSERT INTO code
 (
 Name,
