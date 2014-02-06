@@ -34,6 +34,9 @@ VALUES
 '$encode'
 )";
 mysql_query($input,$conn);
+if(mysql_errno($conn)>0){
+    echo 'Error caught at Line 36,details'.mysql_error($conn);
+}
 $output=mysql_query("SELECT * FROM code WHERE Code='$encode'");
 $result=mysql_fetch_array($output);
 echo "Author:".$result['Name'];
