@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("properties", function() {
+CodeMirror.defineMode("properties", function() {
   return {
     token: function(stream, state) {
       var sol = stream.sol() || state.afterSection;

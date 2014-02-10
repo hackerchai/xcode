@@ -1,4 +1,4 @@
-﻿// Glue code between CodeMirror and Tern.
+// Glue code between CodeMirror and Tern.
 //
 // Create a CodeMirror.TernServer to wrap an actual Tern server,
 // register open documents (CodeMirror.Doc instances) with it, and
@@ -19,8 +19,8 @@
 // * showError: A function(editor, message) that can be used to
 //   override the way errors are displayed.
 // * completionTip: Customize the content in tooltips for completions.
-//   Is passed a single argument钬撄he completion's data as returned by
-//   Tern钬攁nd may return a string, DOM node, or null to indicate that
+//   Is passed a single argument—the completion's data as returned by
+//   Tern—and may return a string, DOM node, or null to indicate that
 //   no tip should be shown. By default the docstring is shown.
 // * typeTip: Like completionTip, but for the tooltips shown for type
 //   queries.
@@ -229,7 +229,7 @@
       } else {
         var tip = elt("span", null, elt("strong", null, data.type || "not found"));
         if (data.doc)
-          tip.appendChild(document.createTextNode(" 钬?" + data.doc));
+          tip.appendChild(document.createTextNode(" — " + data.doc));
         if (data.url) {
           tip.appendChild(document.createTextNode(" "));
           tip.appendChild(elt("a", null, "[docs]")).href = data.url;

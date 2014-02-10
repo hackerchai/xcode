@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("jade", function () {
+CodeMirror.defineMode("jade", function () {
   var symbol_regex1 = /^(?:~|!|%|\^|\*|\+|=|\\|:|;|,|\/|\?|&|<|>|\|)/;
   var open_paren_regex = /^(\(|\[)/;
   var close_paren_regex = /^(\)|\])/;

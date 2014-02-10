@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * abap.php
  * --------
@@ -61,7 +61,7 @@
  *           else return $matches[1]."<a href=\"http://help.sap.com/abapdocu/en/ABAP".strtoupper($url).".htm\">".$matches[3]."</a>".$matches[4];
  *           }
  *       $html = $geshi->parse_code();
- *       $html = preg_replace_callback( "拢(zzz:(control|statement|data);\">)(.+?)(</span>)拢s", "add_urls_to_multi_tokens", $html );
+ *       $html = preg_replace_callback( "£(zzz:(control|statement|data);\">)(.+?)(</span>)£s", "add_urls_to_multi_tokens", $html );
  *       echo $html;
  *   - Numbers followed by a dot terminating the statement are not properly recognized
  *

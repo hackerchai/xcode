@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   CodeMirror.defineOption("matchTags", false, function(cm, val, old) {

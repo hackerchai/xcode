@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("r", function(config) {
+CodeMirror.defineMode("r", function(config) {
   function wordObj(str) {
     var words = str.split(" "), res = {};
     for (var i = 0; i < words.length; ++i) res[words[i]] = true;

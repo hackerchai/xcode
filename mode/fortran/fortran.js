@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("fortran", function() {
+CodeMirror.defineMode("fortran", function() {
   function words(array) {
     var keys = {};
     for (var i = 0; i < array.length; ++i) {

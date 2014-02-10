@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   function doFold(cm, pos, options, force) {

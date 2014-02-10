@@ -1,4 +1,4 @@
-﻿CodeMirror.registerHelper("fold", "brace", function(cm, start) {
+CodeMirror.registerHelper("fold", "brace", function(cm, start) {
   var line = start.line, lineText = cm.getLine(line);
   var startCh, tokenType;
 

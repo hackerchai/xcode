@@ -1,4 +1,4 @@
-﻿// Open simple dialogs on top of an editor. Relies on dialog.css.
+// Open simple dialogs on top of an editor. Relies on dialog.css.
 
 (function() {
   function dialogDiv(cm, template, bottom) {

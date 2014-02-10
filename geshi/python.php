@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * python.php
  * ----------
@@ -177,9 +177,9 @@ $language_data = array (
             )
         ),
     'SYMBOLS' => array(
-        '<', '>', '=', '!', '<=', '>=',             //路comparison路operators
-        '~', '@',                                   //路unary路operators
-        ';', ','                                    //路statement路separator
+        '<', '>', '=', '!', '<=', '>=',             //·comparison·operators
+        '~', '@',                                   //·unary·operators
+        ';', ','                                    //·statement·separator
         ),
     'CASE_SENSITIVE' => array(
         GESHI_COMMENTS => false,

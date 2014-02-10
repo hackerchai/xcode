@@ -1,4 +1,4 @@
-﻿/*
+/*
 Solarized theme for code-mirror
 http://ethanschoonover.com/solarized
 */
@@ -90,7 +90,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
 }
 .cm-s-solarized .cm-strong { color: #eee; }
 .cm-s-solarized .cm-tab:before {
-  content: "鉃?;   /*visualize tab character*/
+  content: "➤";   /*visualize tab character*/
   color: #586e75;
 }
 .cm-s-solarized .cm-error,

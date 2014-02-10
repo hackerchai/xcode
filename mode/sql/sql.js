@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("sql", function(config, parserConfig) {
+CodeMirror.defineMode("sql", function(config, parserConfig) {
   "use strict";
 
   var client         = parserConfig.client || {},

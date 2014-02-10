@@ -1,4 +1,4 @@
-﻿// Highlighting text that matches the selection
+// Highlighting text that matches the selection
 //
 // Defines an option highlightSelectionMatches, which, when enabled,
 // will style strings that match the selection throughout the

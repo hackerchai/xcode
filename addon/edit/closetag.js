@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Tag-closer extension for CodeMirror.
  *
  * This extension adds an "autoCloseTags" option that can be set to

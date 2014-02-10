@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 
 <title>CodeMirror: CoffeeScript mode</title>
 <meta charset="utf-8"/>
@@ -652,9 +652,9 @@ _.template = (str, data) ->
     str.replace(/\r/g, '\\r')
        .replace(/\n/g, '\\n')
        .replace(/\t/g, '\\t')
-       .replace(endMatch,"锟斤拷锟?)
+       .replace(endMatch,"���")
        .split("'").join("\\'")
-       .split("锟斤拷锟?).join("'")
+       .split("���").join("'")
        .replace(c.interpolate, "',$1,'")
        .split(c.start).join("');")
        .split(c.end).join("p.push('") +

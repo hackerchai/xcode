@@ -1,4 +1,4 @@
-﻿/***
+/***
     |''Name''|tiddlywiki.js|
     |''Description''|Enables TiddlyWikiy syntax highlighting using CodeMirror|
     |''Author''|PMario|

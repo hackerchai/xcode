@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("diff", function() {
+CodeMirror.defineMode("diff", function() {
 
   var TOKEN_NAMES = {
     '+': 'positive',

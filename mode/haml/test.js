@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   var mode = CodeMirror.getMode({tabSize: 4, indentUnit: 2}, "haml");
   function MT(name) { test.mode(name, mode, Array.prototype.slice.call(arguments, 1)); }
 

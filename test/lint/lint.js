@@ -1,4 +1,4 @@
-﻿/*
+/*
  Simple linter, based on the Acorn [1] parser module
 
  All of the existing linters either cramp my style or have huge

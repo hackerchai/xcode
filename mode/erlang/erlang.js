@@ -1,4 +1,4 @@
-﻿/*jshint unused:true, eqnull:true, curly:true, bitwise:true */
+/*jshint unused:true, eqnull:true, curly:true, bitwise:true */
 /*jshint undef:true, latedef:true, trailing:true */
 /*global CodeMirror:true */
 
@@ -78,9 +78,9 @@ CodeMirror.defineMode("erlang", function(cmCfg) {
     "term_to_binary","time","throw","tl","trunc","tuple_size",
     "tuple_to_list","unlink","unregister","whereis"];
 
-// upper case: [A-Z] [脴-脼] [脌-脰]
-// lower case: [a-z] [脽-枚] [酶-每]
-  var anumRE       = /[\w@脴-脼脌-脰脽-枚酶-每]/;
+// upper case: [A-Z] [Ø-Þ] [À-Ö]
+// lower case: [a-z] [ß-ö] [ø-ÿ]
+  var anumRE       = /[\w@Ø-ÞÀ-Öß-öø-ÿ]/;
   var escapesRE    =
     /[0-7]{1,3}|[bdefnrstv\\"']|\^[a-zA-Z]|x[0-9a-zA-Z]{2}|x{[0-9a-zA-Z]+}/;
 
@@ -107,7 +107,7 @@ CodeMirror.defineMode("erlang", function(cmCfg) {
 
     // attributes and type specs
     if (!peekToken(state) &&
-        stream.match(/-\s*[a-z脽-枚酶-每][\w脴-脼脌-脰脽-枚酶-每]*/)) {
+        stream.match(/-\s*[a-zß-öø-ÿ][\wØ-ÞÀ-Öß-öø-ÿ]*/)) {
       if (is_member(stream.current(),typeWords)) {
         return rval(state,stream,"type");
       }else{
@@ -176,13 +176,13 @@ CodeMirror.defineMode("erlang", function(cmCfg) {
     }
 
     // variable
-    if (/[A-Z_脴-脼脌-脰]/.test(ch)) {
+    if (/[A-Z_Ø-ÞÀ-Ö]/.test(ch)) {
       stream.eatWhile(anumRE);
       return rval(state,stream,"variable");
     }
 
     // atom/keyword/BIF/function
-    if (/[a-z_脽-枚酶-每]/.test(ch)) {
+    if (/[a-z_ß-öø-ÿ]/.test(ch)) {
       stream.eatWhile(anumRE);
 
       if (stream.match(/\s*\/\s*[0-9]/,false)) {

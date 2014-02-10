@@ -1,4 +1,4 @@
-﻿// declare global: tern, server
+// declare global: tern, server
 
 var server;
 

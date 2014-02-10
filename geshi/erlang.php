@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * erlang.php
  * --------
@@ -270,7 +270,7 @@ $language_data = array(
             'xmerl_eventp', 'xmerl_scan', 'xmerl_xpath', 'xmerl_xs',
             'xmerl_xsd', 'xref', 'yecc', 'zip', 'zlib', 'zlib_stub'
             ),
-        //听Binary modifiers
+        // Binary modifiers
         6 => array(
             'big', 'binary', 'float', 'integer', 'little', 'signed', 'unit', 'unsigned'
             )
@@ -355,7 +355,7 @@ $language_data = array(
         2 => ':'
         ),
     'REGEXPS' => array(
-        //锟组acro definitions
+        //�Macro definitions
         0 => array(
             GESHI_SEARCH => '(-define\s*\()([a-zA-Z0-9_]+)(\(|,)',
             GESHI_REPLACE => '\2',
@@ -403,7 +403,7 @@ $language_data = array(
             GESHI_BEFORE => '\1',
             GESHI_AFTER => ''
             ),
-        // ASCII锟絚odes
+        // ASCII�codes
         6 => '(\$[a-zA-Z0-9_])',
         // Records
         7 => array(

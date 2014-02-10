@@ -1,4 +1,4 @@
-﻿CodeMirror.registerGlobalHelper("fold", "comment", function(mode) {
+CodeMirror.registerGlobalHelper("fold", "comment", function(mode) {
   return mode.blockCommentStart && mode.blockCommentEnd;
 }, function(cm, start) {
   var mode = cm.getModeAt(start), startToken = mode.blockCommentStart, endToken = mode.blockCommentEnd;

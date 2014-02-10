@@ -1,4 +1,4 @@
-﻿CodeMirror.colorize = (function() {
+CodeMirror.colorize = (function() {
 
   var isBlock = /^(p|li|div|h\\d|pre|blockquote|td)$/;
 

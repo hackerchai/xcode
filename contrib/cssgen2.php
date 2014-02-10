@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  *  A simple script which outputs the CSS classes for all languages
  *  supported by GeSHi. You can access it directly to download

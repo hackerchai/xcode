@@ -1,4 +1,4 @@
-﻿/*
+/*
  *      Pig Latin Mode for CodeMirror 2
  *      @author Prasanth Jayachandran
  *      @link   https://github.com/prasanthj/pig-codemirror-2

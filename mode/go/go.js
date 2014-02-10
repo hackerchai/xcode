@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("go", function(config) {
+CodeMirror.defineMode("go", function(config) {
   var indentUnit = config.indentUnit;
 
   var keywords = {

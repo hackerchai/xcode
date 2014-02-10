@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   var mode = CodeMirror.getMode({indentUnit: 2}, "text/x-scss");
   function MT(name) { test.mode(name, mode, Array.prototype.slice.call(arguments, 1), "scss"); }
 

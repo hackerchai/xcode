@@ -1,4 +1,4 @@
-﻿// A number of additional default bindings that are too obscure to
+// A number of additional default bindings that are too obscure to
 // include in the core codemirror.js file.
 
 (function() {

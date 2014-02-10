@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("julia", function(_conf, parserConf) {
+CodeMirror.defineMode("julia", function(_conf, parserConf) {
   var ERRORCLASS = 'error';
 
   function wordRegexp(words) {

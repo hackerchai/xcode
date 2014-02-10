@@ -1,4 +1,4 @@
-﻿/**********************************************************
+/**********************************************************
 * This script provides syntax highlighting support for
 * the Ntriples format.
 * Ntriples format specification:

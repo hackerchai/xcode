@@ -1,4 +1,4 @@
-﻿CodeMirror.modeInfo = [
+CodeMirror.modeInfo = [
   {name: 'APL', mime: 'text/apl', mode: 'apl'},
   {name: 'Asterisk', mime: 'text/x-asterisk', mode: 'asterisk'},
   {name: 'C', mime: 'text/x-csrc', mode: 'clike'},

@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * povray.php
  * --------
- * Author: Carl F眉rstenberg (azatoth@gmail.com)
- * Copyright: 漏 2007 Carl F眉rstenberg
+ * Author: Carl Fürstenberg (azatoth@gmail.com)
+ * Copyright: © 2007 Carl Fürstenberg
  * Release Version: 1.0.8.11
  * Date Started: 2008/07/11
  *

@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   CodeMirror.defineOption("fullScreen", false, function(cm, val, old) {

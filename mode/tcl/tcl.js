@@ -1,4 +1,4 @@
-﻿//tcl mode by Ford_Lawnmower :: Based on Velocity mode by Steve O'Hara
+//tcl mode by Ford_Lawnmower :: Based on Velocity mode by Steve O'Hara
 CodeMirror.defineMode("tcl", function() {
   function parseWords(str) {
     var obj = {}, words = str.split(" ");

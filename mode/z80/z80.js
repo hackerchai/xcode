@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode('z80', function() {
+CodeMirror.defineMode('z80', function() {
   var keywords1 = /^(exx?|(ld|cp|in)([di]r?)?|pop|push|ad[cd]|cpl|daa|dec|inc|neg|sbc|sub|and|bit|[cs]cf|x?or|res|set|r[lr]c?a?|r[lr]d|s[lr]a|srl|djnz|nop|rst|[de]i|halt|im|ot[di]r|out[di]?)\b/i;
   var keywords2 = /^(call|j[pr]|ret[in]?)\b/i;
   var keywords3 = /^b_?(call|jump)\b/i;

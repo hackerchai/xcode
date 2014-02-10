@@ -1,7 +1,8 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * rsplus.php
- * 钬斺€斺€斺€? * Author: Ron Fredericks (ronf@LectureMaker.com)
+ * ———–
+ * Author: Ron Fredericks (ronf@LectureMaker.com)
  * Contributors:
  *  - Benilton Carvalho (beniltoncarvalho@gmail.com)
  *  - Fernando Henrique Ferraz Pereira da Rosa (mentus@gmail.com)
@@ -12,16 +13,16 @@
  * R language file for GeSHi.
  *
  * CHANGES
- * 钬斺€?
+ * ——-
  * 2009/04/06
- *   -  Add references to Sekhon钬檚 R Package docs
+ *   -  Add references to Sekhon’s R Package docs
  * 2009/03/29 (1.0.8.5)
  *   -  First Release
  * 2009/07/16 (1.0.8.6)
  *   - Added functions from base packages (Benilton Carvalho - carvalho@bclab.org)
  *
  * References
- * 钬斺€斺€?
+ * ———-
  * Some online R Package documentation:
  *     http://sekhon.berkeley.edu/library/index.html         2.4 docs
  *     http://astrostatistics.psu.edu/su07/R/html            2.5 docs

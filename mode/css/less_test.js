@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   var mode = CodeMirror.getMode({indentUnit: 2}, "text/x-less");

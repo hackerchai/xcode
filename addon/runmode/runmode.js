@@ -1,4 +1,4 @@
-﻿CodeMirror.runMode = function(string, modespec, callback, options) {
+CodeMirror.runMode = function(string, modespec, callback, options) {
   var mode = CodeMirror.getMode(CodeMirror.defaults, modespec);
   var ie = /MSIE \d/.test(navigator.userAgent);
   var ie_lt9 = ie && (document.documentMode == null || document.documentMode < 9);

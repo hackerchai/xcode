@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * GeSHi example script
  *

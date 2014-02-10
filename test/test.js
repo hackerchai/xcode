@@ -1,4 +1,4 @@
-﻿var Pos = CodeMirror.Pos;
+var Pos = CodeMirror.Pos;
 
 CodeMirror.defaults.rtlMoveVisually = true;
 
@@ -535,17 +535,17 @@ testCM("bookmarkCursor", function(cm) {
   var pos01 = cm.cursorCoords(Pos(0, 1)), pos11 = cm.cursorCoords(Pos(1, 1)),
       pos20 = cm.cursorCoords(Pos(2, 0)), pos30 = cm.cursorCoords(Pos(3, 0)),
       pos41 = cm.cursorCoords(Pos(4, 1));
-  cm.setBookmark(Pos(0, 1), {widget: document.createTextNode("鈫?), insertLeft: true});
-  cm.setBookmark(Pos(2, 0), {widget: document.createTextNode("鈫?), insertLeft: true});
-  cm.setBookmark(Pos(1, 1), {widget: document.createTextNode("鈫?)});
-  cm.setBookmark(Pos(3, 0), {widget: document.createTextNode("鈫?)});
+  cm.setBookmark(Pos(0, 1), {widget: document.createTextNode("←"), insertLeft: true});
+  cm.setBookmark(Pos(2, 0), {widget: document.createTextNode("←"), insertLeft: true});
+  cm.setBookmark(Pos(1, 1), {widget: document.createTextNode("→")});
+  cm.setBookmark(Pos(3, 0), {widget: document.createTextNode("→")});
   var new01 = cm.cursorCoords(Pos(0, 1)), new11 = cm.cursorCoords(Pos(1, 1)),
       new20 = cm.cursorCoords(Pos(2, 0)), new30 = cm.cursorCoords(Pos(3, 0));
   is(new01.left == pos01.left && new01.top == pos01.top, "at left, middle of line");
   is(new11.left > pos11.left && new11.top == pos11.top, "at right, middle of line");
   is(new20.left == pos20.left && new20.top == pos20.top, "at left, empty line");
   is(new30.left > pos30.left && new30.top == pos30.top, "at right, empty line");
-  cm.setBookmark(Pos(4, 0), {widget: document.createTextNode("鈫?)});
+  cm.setBookmark(Pos(4, 0), {widget: document.createTextNode("→")});
   is(cm.cursorCoords(Pos(4, 1)).left > pos41.left, "single-char bug");
 }, {value: "foo\nbar\n\n\nx\ny"});
 
@@ -1205,10 +1205,10 @@ testCM("verticalMovementCommandsWrapping", function(cm) {
     lineWrapping: true});
 
 testCM("rtlMovement", function(cm) {
-  forEach(["禺丨噩", "禺丨abc禺丨噩", "ab禺丨禺丨噩cd", "ab禺de", "ab禺丨2342禺1丨噩", "禺1丨2禺丨3丨x噩",
-           "禺丨cd", "1禺丨cd", "abcde丨1噩", "禺賲乇丨亘赖丕 賲赖丕!", "foobar乇", "禺 丞 賯",
-           "<img src=\"/讘赞讬拽讛3.jpg\">"], function(line) {
-    var inv = line.charAt(0) == "禺";
+  forEach(["خحج", "خحabcخحج", "abخحخحجcd", "abخde", "abخح2342خ1حج", "خ1ح2خح3حxج",
+           "خحcd", "1خحcd", "abcdeح1ج", "خمرحبها مها!", "foobarر", "خ ة ق",
+           "<img src=\"/בדיקה3.jpg\">"], function(line) {
+    var inv = line.charAt(0) == "خ";
     cm.setValue(line + "\n"); cm.execCommand(inv ? "goLineEnd" : "goLineStart");
     var cursor = byClassName(cm.getWrapperElement(), "CodeMirror-cursor")[0];
     var prevX = cursor.offsetLeft, prevY = cursor.offsetTop;
@@ -1231,13 +1231,13 @@ testCM("rtlMovement", function(cm) {
 // Verify that updating a line clears its bidi ordering
 testCM("bidiUpdate", function(cm) {
   cm.setCursor(Pos(0, 2));
-  cm.replaceSelection("禺丨噩", "start");
+  cm.replaceSelection("خحج", "start");
   cm.execCommand("goCharRight");
   eqPos(cm.getCursor(), Pos(0, 4));
 }, {value: "abcd\n"});
 
 testCM("movebyTextUnit", function(cm) {
-  cm.setValue("讘职旨专值讗砖执\n虂e虂e虂e\n");
+  cm.setValue("בְּרֵאשִ\ńéée\n");
   cm.execCommand("goLineEnd");
   for (var i = 0; i < 4; ++i) cm.execCommand("goCharRight");
   eqPos(cm.getCursor(), Pos(0, 0));

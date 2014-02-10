@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   if (!CodeMirror.modeURL) CodeMirror.modeURL = "../mode/%N/%N.js";
 
   var loading = {};

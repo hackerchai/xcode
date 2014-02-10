@@ -1,4 +1,4 @@
-﻿var code = '' +
+var code = '' +
 ' wOrd1 (#%\n' +
 ' word3] \n' +
 'aopop pop 0 1 2 3 4\n' +

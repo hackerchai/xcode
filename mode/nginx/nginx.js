@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("nginx", function(config) {
+CodeMirror.defineMode("nginx", function(config) {
 
   function words(str) {
     var obj = {}, words = str.split(" ");

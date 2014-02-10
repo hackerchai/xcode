@@ -1,4 +1,4 @@
-﻿var tests = [], filters = [], allNames = [];
+var tests = [], filters = [], allNames = [];
 
 function Failure(why) {this.message = why;}
 Failure.prototype.toString = function() { return this.message; };

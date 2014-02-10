@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   // full haml mode. This handled embeded ruby and html fragments too

@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode('tiki', function(config) {
+CodeMirror.defineMode('tiki', function(config) {
   function inBlock(style, terminator, returnTokenizer) {
     return function(stream, state) {
       while (!stream.eol()) {

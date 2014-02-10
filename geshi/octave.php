@@ -1,10 +1,10 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * octave.php
  * -----------
- * Author: Carn毛 Draug (carandraug+dev@gmail.com)
+ * Author: Carnë Draug (carandraug+dev@gmail.com)
  *         Juan Pablo Carbajal (carbajal@ifi.uzh.ch)
- * Copyright: (c) 2012 Carn毛 Draug
+ * Copyright: (c) 2012 Carnë Draug
  *            (c) 2012 Juan Pablo Carbajal
  * Release Version: 1.0.8.11
  * Date Started: 2012/05/22

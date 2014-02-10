@@ -1,4 +1,4 @@
-﻿CodeMirror.defineMode("css", function(config, parserConfig) {
+CodeMirror.defineMode("css", function(config, parserConfig) {
   "use strict";
 
   if (!parserConfig.propertyKeywords) parserConfig = CodeMirror.resolveMode("text/css");

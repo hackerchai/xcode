@@ -1,4 +1,4 @@
-﻿/**
+/**
 * @file smartymixed.js
 * @brief Smarty Mixed Codemirror mode (Smarty + Mixed HTML)
 * @author Ruslan Osmanov <rrosmanov at gmail dot com>

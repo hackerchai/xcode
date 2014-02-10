@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
   var GUTTER_ID = "CodeMirror-lint-markers";
   var SEVERITIES = /^(?:error|warning)$/;

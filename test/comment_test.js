@@ -1,4 +1,4 @@
-﻿namespace = "comment_";
+namespace = "comment_";
 
 (function() {
   function test(name, mode, run, before, after) {

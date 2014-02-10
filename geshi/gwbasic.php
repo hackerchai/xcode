@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 /*************************************************************************************
  * gwbasic.php
  * ----------
- * Author: Jos茅 Gabriel Moya Yang眉ela (josemoya@gmail.com)
- * Copyright: (c) 2010 Jos茅 Gabriel Moya Yang眉ela (http://doc.apagada.com)
+ * Author: José Gabriel Moya Yangüela (josemoya@gmail.com)
+ * Copyright: (c) 2010 José Gabriel Moya Yangüela (http://doc.apagada.com)
  * Release Version: 1.0.8.11
  * Date Started: 2010/01/30
  *

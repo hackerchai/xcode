@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   var HINT_ELEMENT_CLASS        = "CodeMirror-hint";
