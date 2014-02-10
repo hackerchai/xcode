@@ -1,28 +1,13 @@
+install Xcode SQL Database...
 <?php
-
-
-echo "install Xcode SQL Database..";
-//commect the SQL Database
-$conn=mysql_connect("localhost","hackerchai","hackchaiyisheng");
-if(!$conn)
-{
-  die("can not connect:".mysql_error());
+// connect the SQL Database
+$conn = @mysql_connect( SQL_HOST , SQL_USER , SQL_PASS ) or die( 'MySQL connection error' . mysql_error() );
+// table id:1 name:code description:basic-code-store
+$table = SQL_TABLE;
+$sqlcreate = "CREATE TABLE `{$table}` (`codeID` int NOT NULL AUTO_INCREMENT PRIMARY KEY,`Name` varchar(30),`Lan` varchar(20),`Info` varchar(256),`Code` longtext);";
+mysql_query( $sqlcreate , $conn );
+if( mysql_errno( $conn ) > 0 ){
+    echo ( 'MySQL table creation failture' . mysql_error( $conn ) );
 }
-//Create new database
-mysql_query("CREATE DATABASE xcode",$conn);
-//table id:1 name:code description:basic-code-store
-$sqlcreate="CREATE TABLE code
-(
-codeID int NOT NULL AUTO_INCREMENT,
-PRIMARY KEY(codeID),
-Name varchar(30),
-Lan varchar(20),
-Info varchar(256),
-Code longtext
-)";
-mysql_query($sqlcreate,$conn);
-
-//table id:2 mame:  descrition:
-
-mysql_close($conn);
+mysql_close( $conn );
 ?>

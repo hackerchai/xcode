@@ -1,3 +1,4 @@
-<?php
-echo "<footer>Copyright Hackerchai All Rights Reserved</footer>";
-?>
+<footer>
+	Copyright&copy;2014 Hackerchai All Rights Reserved <br /> Contributor:
+	coderfox[xfox@cotr.me]
+</footer>
