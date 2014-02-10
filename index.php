@@ -76,11 +76,11 @@
 		<input type="submit" value="Share Your Code" name="B1"
 			style="font-weight: bold"></input>
 	</form>
-	<link rel="stylesheet" href="/lib/codemirror.css"></link>
-	<script src="/lib/codemirror.js"></script>
-	<script src="/addon/mode/multiplex.js"></script>
-	<script src="/mode/xml/xml.js"></script>
-	<style type="/text/css">
+	<link rel="stylesheet" href="./lib/codemirror.css"></link>
+	<script src="./lib/codemirror.js"></script>
+	<script src="./addon/mode/multiplex.js"></script>
+	<script src="./mode/xml/xml.js"></script>
+	<style type="text/css">
         .CodeMirror {border: 5px solid black;}
         .cm-delimit {color: #fa4;}
     </style>

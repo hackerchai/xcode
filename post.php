@@ -8,8 +8,9 @@
 include_once ( './geshi.php' );
 include_once ( './config.php' );
 $conn = @mysql_connect( SQL_HOST , SQL_USER , SQL_PASS ) or die( 'MySQL connection error' . mysql_error( $conn ) );
-$encode = str_replace( '\'' , '\\\'' , $_POST[ 'code' ] );
+$encode=$_POST['code'];
 $encode = str_replace( '\\' , '\\\\' , $encode );
+$encode = str_replace( '\'' , '\\\'' , $encode);
 mysql_select_db( SQL_DB , $conn );
 $table = SQL_TABLE;
 $input = "INSERT INTO `{$table}`(`Name`,`Lan`,`Info`,`Code`)
@@ -34,7 +35,7 @@ Description:<?=$result[ 'Info' ]?>
 	<br />
 [<?=$result[ 'Lan' ]?>]
 <?php
-$geshi = &new GeSHi( $result[ 'Code' ] , $result[ 'Lan' ] );
+$geshi = new GeSHi( $result[ 'Code' ] , $result[ 'Lan' ] );
 $geshi -> enable_line_numbers( GESHI_NORMAL_LINE_NUMBERS , 37 );
 $geshi -> set_line_style( 'color: grey; font-weight: bold;' , 'color: blue; font -weight: bold' );
 $geshi -> set_overall_style( 'background:whitesmoke;' , true );
@@ -42,7 +43,7 @@ echo $geshi -> parse_code();
 mysql_close( $conn );
 ?>
 <p>
-		<a href="showmycode.php?id=<?=$result[ 'codeID' ]?>"> <img border='0'
+		<a href="./showmycode.php?id=<?=$result[ 'codeID' ]?>"> <img border='0'
 			id='imageButton' src='button2.jpg' height='25' width='123'
 			alt='Get My Share Code' fp-title='Get My Share Code' />
 		</a>

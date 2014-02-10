@@ -1,0 +1,18 @@
+<?php
+/**
+ * config sample file
+ *
+ * @author 小傅Fox[<xfox@cotr.me>]
+ */
+
+// UNDER CONSTRUCTION!
+//SQL host
+define( 'SQL_HOST' , ' ' );
+//username
+define( 'SQL_USER' , ' ' );
+//password
+define( 'SQL_PASS' , ' ' );
+//database
+define( 'SQL_DB' , ' ' );
+//table ( will be created by install script )
+define( 'SQL_TABLE' , ' ' );

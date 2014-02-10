@@ -9,7 +9,7 @@ $result = mysql_fetch_array( $output );
 ?>
 This Page's Address :
 <?php
-$address = 'http://xcode.hackerchai.com/showmycode.php?id=' . $_GET[ 'id' ];
+$address = SITE_URL.'/showmycode.php?id=' . $_GET[ 'id' ];
 echo "<a href=\"{$address}\">{$address}</a>&nbsp;&nbsp;";
 ?>
 <input type="button" name="copy" onClick='copyToClipBoard()'
@@ -35,7 +35,7 @@ Code:
 <br />
 [<?=$result[ 'Lan' ]?>]
 <?php
-$geshi = &new GeSHi( $result[ 'Code' ] , $result[ 'Lan' ] );
+$geshi = new GeSHi( $result[ 'Code' ] , $result[ 'Lan' ] );
 $geshi -> set_line_style( 'color: grey; font-weight: bold;' , 'color: blue; font -weight: bold' );
 $geshi -> enable_line_numbers( GESHI_NORMAL_LINE_NUMBERS , 37 );
 $geshi -> set_overall_style( 'background:whitesmoke;' , true );
