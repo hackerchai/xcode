@@ -1,4 +1,4 @@
-CodeMirror.defineMode("vb", function(conf, parserConf) {
+﻿CodeMirror.defineMode("vb", function(conf, parserConf) {
     var ERRORCLASS = 'error';
 
     function wordRegexp(words) {

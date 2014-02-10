@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   "use strict";
 
   var WORD = /[\w$]+/, RANGE = 500;

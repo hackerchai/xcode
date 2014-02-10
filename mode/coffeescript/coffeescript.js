@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Link to the project's GitHub page:
  * https://github.com/pickhardt/coffeescript-codemirror-mode
  */

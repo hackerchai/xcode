@@ -1,4 +1,4 @@
-// Because sometimes you need to mark the selected *text*.
+﻿// Because sometimes you need to mark the selected *text*.
 //
 // Adds an option 'styleSelectedText' which, when enabled, gives
 // selected text the CSS class given as option value, or

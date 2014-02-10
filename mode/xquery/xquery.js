@@ -1,4 +1,4 @@
-CodeMirror.defineMode("xquery", function() {
+﻿CodeMirror.defineMode("xquery", function() {
 
   // The keywords object is set to the result of this self executing
   // function. Each keyword is a property of the keywords object whose

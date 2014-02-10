@@ -1,4 +1,4 @@
-CodeMirror.defineMode("rust", function() {
+﻿CodeMirror.defineMode("rust", function() {
   var indentUnit = 4, altIndentUnit = 2;
   var valKeywords = {
     "if": "if-style", "while": "if-style", "else": "else-style",

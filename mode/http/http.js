@@ -1,4 +1,4 @@
-CodeMirror.defineMode("http", function() {
+﻿CodeMirror.defineMode("http", function() {
   function failFirstLine(stream, state) {
     stream.skipToEnd();
     state.cur = header;

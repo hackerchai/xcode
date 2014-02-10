@@ -1,4 +1,4 @@
-CodeMirror.defineMode('mllike', function(_config, parserConfig) {
+﻿CodeMirror.defineMode('mllike', function(_config, parserConfig) {
 
   var words = {
     'let': 'keyword',

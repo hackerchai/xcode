@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /*************************************************************************************
  * nagios.php
  * --------
- * Author: Albéric de Pertat <alberic@depertat.net>
- * Copyright: (c) 2012 Albéric de Pertat (https://github.com/adepertat/geshi-nagios)
+ * Author: Alb茅ric de Pertat <alberic@depertat.net>
+ * Copyright: (c) 2012 Alb茅ric de Pertat (https://github.com/adepertat/geshi-nagios)
  * Release Version: 1.0.8.11
  * Date Started: 2012/01/19
  *

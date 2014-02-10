@@ -1,4 +1,4 @@
-CodeMirror.defineMode("toml", function () {
+﻿CodeMirror.defineMode("toml", function () {
   return {
     startState: function () {
       return {

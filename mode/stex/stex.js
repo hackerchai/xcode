@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Author: Constantin Jucovschi (c.jucovschi@jacobs-university.de)
  * Licence: MIT
  */

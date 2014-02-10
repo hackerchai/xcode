@@ -1,4 +1,4 @@
-CodeMirror.defineMode("d", function(config, parserConfig) {
+﻿CodeMirror.defineMode("d", function(config, parserConfig) {
   var indentUnit = config.indentUnit,
       statementIndentUnit = parserConfig.statementIndentUnit || indentUnit,
       keywords = parserConfig.keywords || {},

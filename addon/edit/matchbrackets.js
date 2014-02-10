@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   var ie_lt8 = /MSIE \d/.test(navigator.userAgent) &&
     (document.documentMode == null || document.documentMode < 8);
 

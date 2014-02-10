@@ -1,4 +1,4 @@
-CodeMirror.defineMode("yaml", function() {
+﻿CodeMirror.defineMode("yaml", function() {
 
   var cons = ['true', 'false', 'on', 'off', 'yes', 'no'];
   var keywordRegex = new RegExp("\\b(("+cons.join(")|(")+"))$", 'i');

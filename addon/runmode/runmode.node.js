@@ -1,4 +1,4 @@
-/* Just enough of CodeMirror to run runMode under node.js */
+﻿/* Just enough of CodeMirror to run runMode under node.js */
 
 function splitLines(string){ return string.split(/\r?\n|\r/); };
 

@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   var mode = CodeMirror.getMode({indentUnit: 2}, "javascript");
   function MT(name) { test.mode(name, mode, Array.prototype.slice.call(arguments, 1)); }
 

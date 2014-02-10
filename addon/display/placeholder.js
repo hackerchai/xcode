@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   CodeMirror.defineOption("placeholder", "", function(cm, val, old) {
     var prev = old && old != CodeMirror.Init;
     if (val && !prev) {

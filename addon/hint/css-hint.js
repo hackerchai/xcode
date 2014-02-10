@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   "use strict";
 
   var pseudoClasses = {link: 1, visited: 1, active: 1, hover: 1, focus: 1,

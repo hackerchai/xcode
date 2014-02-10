@@ -1,4 +1,4 @@
-CodeMirror.defineMode("xml", function(config, parserConfig) {
+﻿CodeMirror.defineMode("xml", function(config, parserConfig) {
   var indentUnit = config.indentUnit;
   var multilineTagIndentFactor = parserConfig.multilineTagIndentFactor || 1;
   var multilineTagIndentPastTag = parserConfig.multilineTagIndentPastTag || true;

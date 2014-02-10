@@ -1,4 +1,4 @@
-CodeMirror.defineMode("octave", function() {
+﻿CodeMirror.defineMode("octave", function() {
   function wordRegexp(words) {
     return new RegExp("^((" + words.join(")|(") + "))\\b");
   }

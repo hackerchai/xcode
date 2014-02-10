@@ -1,4 +1,4 @@
-CodeMirror.defineMode("clike", function(config, parserConfig) {
+﻿CodeMirror.defineMode("clike", function(config, parserConfig) {
   var indentUnit = config.indentUnit,
       statementIndentUnit = parserConfig.statementIndentUnit || indentUnit,
       dontAlignCalls = parserConfig.dontAlignCalls,

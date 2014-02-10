@@ -1,4 +1,4 @@
-// AST walker module for Mozilla Parser API compatible trees
+﻿// AST walker module for Mozilla Parser API compatible trees
 
 (function(exports) {
   "use strict";

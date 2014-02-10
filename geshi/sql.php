@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 /*************************************************************************************
  * sql.php
  * -------
  * Author: Nigel McNie (nigel@geshi.org)
  * Contributors:
- *  - Jürgen Thomas (Juergen.Thomas@vs-polis.de)
+ *  - J眉rgen Thomas (Juergen.Thomas@vs-polis.de)
  * Copyright: (c) 2004 Nigel McNie (http://qbnz.com/highlighter)
  * Release Version: 1.0.8.11
  * Date Started: 2004/06/04

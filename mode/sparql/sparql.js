@@ -1,4 +1,4 @@
-CodeMirror.defineMode("sparql", function(config) {
+﻿CodeMirror.defineMode("sparql", function(config) {
   var indentUnit = config.indentUnit;
   var curPunc;
 

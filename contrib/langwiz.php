@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * GeSHi example script
  *
@@ -711,7 +711,7 @@ echo "</pre>";
                     </td>
                     <td>
                         <select name=ld[kw_case]" id="ld[kw_case]">
-                            <option value="GESHI_CAPS_NO_CHANGE"<?=$kw_case_sel['GESHI_CAPS_NO_CHANGE']; ?>>Don’t change the case of any keyword</option>
+                            <option value="GESHI_CAPS_NO_CHANGE"<?=$kw_case_sel['GESHI_CAPS_NO_CHANGE']; ?>>Don钬檛 change the case of any keyword</option>
                             <option value="GESHI_CAPS_UPPER"<?=$kw_case_sel['GESHI_CAPS_UPPER']; ?>>Convert the case of all keywords to upper case</option>
                             <option value="GESHI_CAPS_LOWER"<?=$kw_case_sel['GESHI_CAPS_LOWER']; ?>>Convert the case of all keywords to lower case</option>
                         </select>

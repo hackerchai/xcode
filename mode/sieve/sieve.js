@@ -1,4 +1,4 @@
-/*
+﻿/*
  * See LICENSE in this directory for the license under which this code
  * is released.
  */

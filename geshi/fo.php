@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*************************************************************************************
  * fo.php
  * --------
@@ -103,7 +103,7 @@ $language_data = array (
             '.belegen', '.occupy',
             '.bringe', '.rewrite',
             '.dazu', '.add',
-            '.löschen', '.delete',
+            '.l枚schen', '.delete',
             '.mache', '.make',
             '.merke', '.reserve',
             '.setze', '.set',
@@ -117,7 +117,7 @@ $language_data = array (
             'OBLIGO', 'OUTSTANDING',
             'LISTE', 'LIST',
             'DRUCK', 'PRINT',
-            'ÜBERNAHME', 'TAGEOVER',
+            '脺BERNAHME', 'TAGEOVER',
             'ABLAGE', 'FILINGSYSTEM',
             'BDE', 'PDC',
             'BINDUNG', 'ALLOCATION',
@@ -163,7 +163,7 @@ $language_data = array (
             '.box',
             '.drucken', '.print',
             '.gedruckt', '.printed',
-            '.länge', '.length',
+            '.l盲nge', '.length',
             '.links', '.left',
             '.rechts', '.right',
             '.oben', '.up',
@@ -189,7 +189,7 @@ $language_data = array (
             '.datei', '.file',
             '.lesen', '.read',
             '.sortiere', '.sort',
-            '-ÖFFNEN', '-OPEN',
+            '-脰FFNEN', '-OPEN',
             '-TEST',
             '-LESEN', '-READ',
             'VON', 'FROM'

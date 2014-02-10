@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /*************************************************************************************
  * delphi.php
  * ----------
- * Author: J�rja Norbert (jnorbi@vipmail.hu), Benny Baumann (BenBE@omorphia.de)
- * Copyright: (c) 2004 J�rja Norbert, Benny Baumann (BenBE@omorphia.de), Nigel McNie (http://qbnz.com/highlighter)
+ * Author: J锟絩ja Norbert (jnorbi@vipmail.hu), Benny Baumann (BenBE@omorphia.de)
+ * Copyright: (c) 2004 J锟絩ja Norbert, Benny Baumann (BenBE@omorphia.de), Nigel McNie (http://qbnz.com/highlighter)
  * Release Version: 1.0.8.11
  * Date Started: 2004/07/26
  *

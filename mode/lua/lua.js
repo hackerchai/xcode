@@ -1,4 +1,4 @@
-// LUA mode. Ported to CodeMirror 2 from Franciszek Wawrzak's
+﻿// LUA mode. Ported to CodeMirror 2 from Franciszek Wawrzak's
 // CodeMirror 1 mode.
 // highlights keywords, strings, comments (no leveling supported! ("[==[")), tokens, basic indenting
 

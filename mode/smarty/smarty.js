@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Smarty 2 and 3 mode.
  */
 CodeMirror.defineMode("smarty", function(config) {

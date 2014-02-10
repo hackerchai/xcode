@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   var Pos = CodeMirror.Pos;
 
   function forEach(arr, f) {

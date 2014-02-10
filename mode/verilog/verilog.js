@@ -1,4 +1,4 @@
-CodeMirror.defineMode("verilog", function(config, parserConfig) {
+﻿CodeMirror.defineMode("verilog", function(config, parserConfig) {
   var indentUnit = config.indentUnit,
       keywords = parserConfig.keywords || {},
       blockKeywords = parserConfig.blockKeywords || {},

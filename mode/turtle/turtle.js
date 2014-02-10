@@ -1,4 +1,4 @@
-CodeMirror.defineMode("turtle", function(config) {
+﻿CodeMirror.defineMode("turtle", function(config) {
   var indentUnit = config.indentUnit;
   var curPunc;
 

@@ -1,4 +1,4 @@
-CodeMirror.defineOption("showTrailingSpace", false, function(cm, val, prev) {
+﻿CodeMirror.defineOption("showTrailingSpace", false, function(cm, val, prev) {
   if (prev == CodeMirror.Init) prev = false;
   if (prev && !val)
     cm.removeOverlay("trailingspace");

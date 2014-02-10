@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*************************************************************************************
  * algol68.php
  * --------
@@ -100,7 +100,7 @@ if(!function_exists('geshi_langfile_algol68_vars')) {
 
         # Define REAL: #
         $prereal=$pre; $postreal=$post;
-        $sexp="Ee\\\\";   $_exp="(?:⏨|[".$sexp."])".$_.$_int;
+        $sexp="Ee\\\\";   $_exp="(?:铃▅[".$sexp."])".$_.$_int;
         $_decimal="[.]".$_.$_dec;
 
         # Add permitted permutations of various parts #
@@ -139,8 +139,8 @@ $language_data = array(
     'LANG_NAME' => 'ALGOL 68',
     'COMMENT_SINGLE' => array(),
     'COMMENT_MULTI' => array(
-        '¢' => '¢',
-        '£' => '£',
+        '垄' => '垄',
+        '拢' => '拢',
         '#' => '#',
         ),
     'COMMENT_REGEXP' => array(
@@ -165,26 +165,26 @@ $language_data = array(
         5 => array('FORALL', 'UPTO', 'DOWNTO', 'FOREACH', 'ASSERT', 'CTB', 'CT', 'CTAB', 'COMPLEX', 'VECTOR', 'SOUND' /*, 'PIPE'*/),
         6 => array('CHANNEL', 'FILE', 'FORMAT', 'STRUCT', 'UNION', 'OF'),
 # '(', '|', '|:', ')',  #
-#        7 => array('OF', 'AT', '@', 'IS', ':=:', 'ISNT', ':/=:', ':≠:', 'CTB', 'CT', '::', 'CTAB', '::=', 'TRUE', 'FALSE', 'EMPTY', 'NIL', '○', 'SKIP', '~'),
+#        7 => array('OF', 'AT', '@', 'IS', ':=:', 'ISNT', ':/=:', ':铌?', 'CTB', 'CT', '::', 'CTAB', '::=', 'TRUE', 'FALSE', 'EMPTY', 'NIL', '鈼?, 'SKIP', '~'),
         7 => array('AT', 'IS', 'ISNT', 'TRUE', 'FALSE', 'EMPTY', 'NIL', 'SKIP'),
         8 => array('NOT', 'UP', 'DOWN', 'LWB', 'UPB', /* '-',*/ 'ABS', 'ARG', 'BIN', 'ENTIER', 'LENG', 'LEVEL', 'ODD', 'REPR', 'ROUND', 'SHORTEN', 'CONJ', 'SIGN'),
 # OPERATORS ordered roughtly by PRIORITY #
-#       9 => array('¬', '↑', '↓', '⌊', '⌈', '~', '⎩', '⎧'),
-#        10 => array('+*', 'I', '+×', '⊥', '!', '⏨'),
+#       9 => array('卢', '鈫?, '鈫?, '鈱?, '鈱?, '~', '钶?, '钶?),
+#        10 => array('+*', 'I', '+脳', '鈯?, '!', '铃?),
         10 => array('I'),
-#        11 => array('SHL', 'SHR', '**', 'UP', 'DOWN', 'LWB', 'UPB', '↑', '↓', '⌊', '⌈', '⎩', '⎧'),
+#        11 => array('SHL', 'SHR', '**', 'UP', 'DOWN', 'LWB', 'UPB', '鈫?, '鈫?, '鈱?, '鈱?, '钶?, '钶?),
         11 => array('SHL', 'SHR', /*'UP', 'DOWN', 'LWB', 'UPB'*/),
-#        12 => array('*', '/', '%', 'OVER', '%*', 'MOD', 'ELEM', '×', '÷', '÷×', '÷*', '%×', '□', '÷:'),
+#        12 => array('*', '/', '%', 'OVER', '%*', 'MOD', 'ELEM', '脳', '梅', '梅脳', '梅*', '%脳', '鈻?, '梅:'),
         12 => array('OVER', 'MOD', 'ELEM'),
 #        13 => array('-', '+'),
-#        14 => array('<', 'LT', '<=', 'LE', '>=', 'GE', '>', 'GT', '≤', '≥'),
+#        14 => array('<', 'LT', '<=', 'LE', '>=', 'GE', '>', 'GT', '铌?, '铌?),
         14 => array('LT', 'LE', 'GE', 'GT'),
-#        15 => array('=', 'EQ', '/=', 'NE', '≠', '~='),
+#        15 => array('=', 'EQ', '/=', 'NE', '铌?, '~='),
         15 => array('EQ', 'NE'),
-#        16 => array('&', 'AND', '∧', 'OR', '∨', '/\\', '\\/'),
+#        16 => array('&', 'AND', '鈭?, 'OR', '鈭?, '/\\', '\\/'),
         16 => array('AND', 'OR'),
         17 => array('MINUSAB', 'PLUSAB', 'TIMESAB', 'DIVAB', 'OVERAB', 'MODAB', 'PLUSTO'),
-#        18 => array('-:=', '+:=', '*:=', '/:=', '%:=', '%*:=', '+=:', '×:=', '÷:=', '÷×:=', '÷*:=', '%×:=', '÷::=', 'MINUS', 'PLUS', 'DIV', 'MOD', 'PRUS'),
+#        18 => array('-:=', '+:=', '*:=', '/:=', '%:=', '%*:=', '+=:', '脳:=', '梅:=', '梅脳:=', '梅*:=', '%脳:=', '梅::=', 'MINUS', 'PLUS', 'DIV', 'MOD', 'PRUS'),
 # Extensions or deprecated keywords
         18 => array('MINUS', 'PLUS', 'DIV', /* 'MOD',*/ 'PRUS', 'IS NOT'),
 # Extensions or deprecated keywords
@@ -202,7 +202,7 @@ $language_data = array(
         29 => array('complex sqrt', 'complexsqrt', 'long complex sqrt', 'longcomplexsqrt', 'long long complex sqrt', 'longlongcomplexsqrt', 'complex exp', 'complexexp', 'long complex exp', 'longcomplexexp', 'long long complex exp', 'longlongcomplexexp', 'complex ln', 'complexln', 'long complex ln', 'longcomplexln', 'long long complex ln', 'longlongcomplexln', 'complex sin', 'complexsin', 'long complex sin', 'longcomplexsin', 'long long complex sin', 'longlongcomplexsin', 'complex arc sin', 'complexarcsin', 'long complex arc sin', 'longcomplexarcsin', 'long long complex arc sin', 'longlongcomplexarcsin', 'complex cos', 'complexcos', 'long complex cos', 'longcomplexcos', 'long long complex cos', 'longlongcomplexcos', 'complex arc cos', 'complexarccos', 'long complex arc cos', 'longcomplexarccos', 'long long complex arc cos', 'longlongcomplexarccos', 'complex tan', 'complextan', 'long complex tan', 'longcomplextan', 'long long complex tan', 'longlongcomplextan', 'complex arc tan', 'complexarctan', 'long complex arc tan', 'longcomplexarctan', 'long long complex arc tan', 'longlongcomplexarctan', 'complex sinh', 'complexsinh', 'complex arc sinh', 'complexarcsinh', 'complex cosh', 'complexcosh', 'complex arc cosh', 'complexarccosh', 'complex tanh', 'complextanh', 'complex arc tanh', 'complexarctanh')
         ),
     'SYMBOLS' => array(
-        1 => array( /* reverse length sorted... */ '÷×:=', '%×:=', ':≠:', '÷*:=', '÷::=', '%*:=', ':/=:', '×:=', '÷:=', '÷×', '%:=', '%×', '*:=', '+:=', '+=:', '+×', '-:=', '/:=', '::=', ':=:', '÷*', '÷:', '↑', '↓', '∧', '∨', '≠', '≤', '≥', '⊥', '⌈', '⌊', '⎧', '⎩', /* '⏨', */ '□', '○', '%*', '**', '+*', '/=', '::', '/\\', '\\/', '<=', '>=', '|:', '~=', '¬', '×', '÷', '!', '%', '&', '(', ')', '*', '+', ',', '-', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '{', '|', '}', '~')
+        1 => array( /* reverse length sorted... */ '梅脳:=', '%脳:=', ':铌?', '梅*:=', '梅::=', '%*:=', ':/=:', '脳:=', '梅:=', '梅脳', '%:=', '%脳', '*:=', '+:=', '+=:', '+脳', '-:=', '/:=', '::=', ':=:', '梅*', '梅:', '鈫?, '鈫?, '鈭?, '鈭?, '铌?, '铌?, '铌?, '鈯?, '鈱?, '鈱?, '钶?, '钶?, /* '铃?, */ '鈻?, '鈼?, '%*', '**', '+*', '/=', '::', '/\\', '\\/', '<=', '>=', '|:', '~=', '卢', '脳', '梅', '!', '%', '&', '(', ')', '*', '+', ',', '-', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '{', '|', '}', '~')
     ),
     'CASE_SENSITIVE' => array(
         GESHI_COMMENTS => false,
@@ -311,7 +311,7 @@ $language_data = array(
         ),
     'OOLANG' => true,
     'OBJECT_SPLITTERS' => array(
-        0 => '→',
+        0 => '鈫?,
         1 => 'OF'
         ),
     'REGEXPS' => array(

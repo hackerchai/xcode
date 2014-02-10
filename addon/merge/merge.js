@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   "use strict";
   // declare global: diff_match_patch, DIFF_INSERT, DIFF_DELETE, DIFF_EQUAL
 

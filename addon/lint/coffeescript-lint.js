@@ -1,4 +1,4 @@
-// Depends on coffeelint.js from http://www.coffeelint.org/js/coffeelint.js
+﻿// Depends on coffeelint.js from http://www.coffeelint.org/js/coffeelint.js
 
 // declare global: coffeelint
 

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Helper to test CodeMirror highlighting modes. It pretty prints output of the
  * highlighter and can check against expected styles.
  *

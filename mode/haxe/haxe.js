@@ -1,4 +1,4 @@
-CodeMirror.defineMode("haxe", function(config, parserConfig) {
+﻿CodeMirror.defineMode("haxe", function(config, parserConfig) {
   var indentUnit = config.indentUnit;
 
   // Tokenizer

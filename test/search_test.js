@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   "use strict";
 
   function test(name) {
@@ -54,9 +54,9 @@
     run(doc, "kOMt\ndE stOOmboot\nuiT", true, 0, 10, 2, 3);
   });
 
-  test("expandingCaseFold", "<b>İİ İİ</b>", "<b>uu uu</b>", function(doc) {
+  test("expandingCaseFold", "<b>陌陌 陌陌</b>", "<b>uu uu</b>", function(doc) {
     if (phantom) return; // A Phantom bug makes this hang
     run(doc, "</b>", true, 0, 8, 0, 12, 1, 8, 1, 12);
-    run(doc, "İİ", true, 0, 3, 0, 5, 0, 6, 0, 8);
+    run(doc, "陌陌", true, 0, 3, 0, 5, 0, 6, 0, 8);
   });
 })();

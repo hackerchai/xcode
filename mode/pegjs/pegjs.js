@@ -1,4 +1,4 @@
-CodeMirror.defineMode("pegjs", function (config) {
+﻿CodeMirror.defineMode("pegjs", function (config) {
   var jsMode = CodeMirror.getMode(config, "javascript");
 
   function identifier(stream) {

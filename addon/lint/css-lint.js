@@ -1,4 +1,4 @@
-// Depends on csslint.js from https://github.com/stubbornella/csslint
+﻿// Depends on csslint.js from https://github.com/stubbornella/csslint
 
 // declare global: CSSLint
 

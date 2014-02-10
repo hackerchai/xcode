@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   // A minilanguage for instantiating linked CodeMirror instances and Docs
   function instantiateSpec(spec, place, opts) {
     var names = {}, pos = 0, l = spec.length, editors = [];

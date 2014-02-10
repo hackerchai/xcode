@@ -1,4 +1,4 @@
-CodeMirror.defineMode("jinja2", function() {
+﻿CodeMirror.defineMode("jinja2", function() {
     var keywords = ["and", "as", "block", "endblock", "by", "cycle", "debug", "else", "elif",
                     "extends", "filter", "endfilter", "firstof", "for",
                     "endfor", "if", "endif", "ifchanged", "endifchanged",

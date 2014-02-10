@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /*************************************************************************************
  * gml.php
  * --------
- * Author: Jos� Jorge Enr�quez (jenriquez@users.sourceforge.net)
- * Copyright: (c) 2005 Jos� Jorge Enr�quez Rodr�guez (http://www.zonamakers.com)
+ * Author: Jos锟?Jorge Enr锟绒uez (jenriquez@users.sourceforge.net)
+ * Copyright: (c) 2005 Jos锟?Jorge Enr锟绒uez Rodr锟绞uez (http://www.zonamakers.com)
  * Release Version: 1.0.8.11
  * Date Started: 2005/06/21
  *

@@ -1,4 +1,4 @@
-CodeMirror.defineMode("ecl", function(config) {
+﻿CodeMirror.defineMode("ecl", function(config) {
 
   function words(str) {
     var obj = {}, words = str.split(" ");

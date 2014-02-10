@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include_once ( './geshi.php' );
 include_once ( './config.php' );
 $conn = @mysql_connect( SQL_HOST , SQL_USER , SQL_PASS ) or die( 'MySQL connection error' . mysql_error() );
